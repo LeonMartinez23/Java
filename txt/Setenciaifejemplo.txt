@@ -1,0 +1,27 @@
+package setenciaifejemplo;
+
+import java.util.Scanner;
+
+public class Setenciaifejemplo {
+
+    public static void main(String[] args) {
+        
+        int n;
+        Scanner leer = new Scanner(System.in);
+        
+        System.out.print("Escribe un numero del 1 al 10: ");
+        n =leer.nextInt();
+        
+        if (n <=18)
+        {
+            System.out.println("n es menor o igual a 5.");
+        }
+        else
+        {
+            System.out.println("No se a cumplido la condicion.1");
+        }
+        
+        
+    }
+    
+}
